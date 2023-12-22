@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Click Here!](https://github.com/NgChucky/NgChucky.github.io/blob/master/public/index.html)
+
 ## Available Scripts
 
 In the project directory, you can run:
