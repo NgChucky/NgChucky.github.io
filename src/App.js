@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MainContent from './main_content_src.js'; // Changed from 'main_content' to 'MainContent'
+import Animations from './Animations.js'; // Changed from 'Animations' to 'Animations'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <MainContent /> {/* Changed from 'main_content' to 'MainContent' */}
+      <Animations /> {/* No change needed here as the component name already starts with a capital letter */}
     </div>
   );
 }
-
 export default App;
